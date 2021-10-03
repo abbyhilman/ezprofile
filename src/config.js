@@ -1,12 +1,12 @@
 // config.js
 module.exports = {
     github: {
-        username: 'abbyhilman', // Your GitHub org/user name. (Required)
+        username: 'arifszn', // Your GitHub org/user name. (Required)
         sortBy: 'stars', // stars | updated
         limit: 8, // How many projects to display.
         exclude: {
             forks: false, // Forked projects will not be displayed if set to true.
-            projects: ['BWA-React-Native-Food-Market', 'BWAMovie', 'Food-Market-Back-End-Laravel'] // These projects will not be displayed. example: ['my-project1', 'my-project2']
+            projects: [''] // These projects will not be displayed. example: ['my-project1', 'my-project2']
         }
     },
     social: {
@@ -67,10 +67,10 @@ module.exports = {
     },
     googleAnalytics: {
         // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-        id: 'G-WLLB5E14M6' // Please remove this and use your own tag id
+        id: '' // Please remove this and use your own tag id
     },
     hotjar: {
-        id: '2617601', //  Please remove this and use your own id
+        id: '', //  Please remove this and use your own id
         snippetVersion : 6
     },
     themeConfig: {

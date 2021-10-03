@@ -1,7 +1,7 @@
 // config.js
 module.exports = {
     github: {
-        username: 'arifszn', // Your GitHub org/user name. (Required)
+        username: 'abbyhilman', // Your GitHub org/user name. (Required)
         sortBy: 'stars', // stars | updated
         limit: 8, // How many projects to display.
         exclude: {
@@ -10,89 +10,71 @@ module.exports = {
         }
     },
     social: {
-        linkedin: 'ariful-alam',
-        twitter: 'arif_swozon',
+        linkedin: 'abby-hilman',
+        twitter: '',
         facebook: '',
         dribbble: '',
         behance: '',
         medium: '',
         devto: '',
-        website: 'https://arifszn.github.io',
+        website: 'https://abbyhilman.github.io',
         phone: '',
-        email: 'contact@arifszn.com'
+        email: 'abbyhilman@gmail.com'
     },
     skills: [
-        'PHP',
+        'React Native',
         'Laravel',
         'JavaScript',
         'React.js',
-        'Vue.js',
         'Node.js',
-        'Jquery',
         'MySQL',
         'Git',
-        'Docker',
         'CSS',
-        'Antd',
-        'Tailwind',
-        'Bootstrap',
     ],
     experiences: [
         { 
-            company: 'Monstarlab Bangladesh',
-            position: 'Software Engineer',
-            from: 'September 2021',
+            company: 'PT. Astra Graphia Information Technology (AGIT)',
+            position: 'Developer',
+            from: 'January 2021',
             to: 'Present'
         },
         { 
-            company: 'Orangetoolz - My Offer 360 Degree',
-            position: 'Jr. Full Stack Engineer',
-            from: 'July 2019',
-            to: 'August 2021'
+            company: 'Mednefits Pte Ltd',
+            position: 'Jr. Mobile Developer',
+            from: 'April 2020',
+            to: 'December 2021'
         },
         { 
-            company: 'Techvillage',
-            position: 'Jr. Software Engineer',
-            from: 'January 2019',
-            to: ' June 2019'
+            company: 'PT Generasi Informasi Optima',
+            position: 'Jr. Information Technology Consultant',
+            from: 'November 2019',
+            to: ' January 2020'
         }
     ],
     education: [
         { 
-            institution: 'American International University-Bangladesh',
-            degree: 'Bachelor of Science',
+            institution: 'Trisakti University',
+            degree: 'Bachelor of Computer Science',
             from: '2015',
             to: '2019'
         },
-        { 
-            institution: 'Cantonment College, Jessore',
-            degree: 'Higher Secondary Certificate (HSC)',
-            from: '2012',
-            to: '2014',
-        },
-        { 
-            institution: 'Chowgacha Shahadat Pilot High School',
-            degree: 'Secondary School Certificate (SSC)',
-            from: '2007',
-            to: '2012'
-        }
     ],
     blog: {
         // Display blog posts from your medium or dev.to account. (Optional)
-        source: 'dev.to', // medium | dev.to
-        username: 'arifszn',
-        limit: 2 // How many posts to display. Max is 10.
+        source: '', // medium | dev.to
+        username: '',
+        limit: 0 // How many posts to display. Max is 10.
     },
     googleAnalytics: {
         // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-        id: 'G-WLLB5E14M6' // Please remove this and use your own tag id
+        id: '' // Please remove this and use your own tag id
     },
     hotjar: {
-        id: '2617601', //  Please remove this and use your own id
+        id: '', //  Please remove this and use your own id
         snippetVersion : 6
     },
     themeConfig: {
-        default: 'light',
+        default: 'dark',
 
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode

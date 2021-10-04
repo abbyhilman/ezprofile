@@ -10,7 +10,7 @@ module.exports = {
         }
     },
     social: {
-        linkedin: 'abbyhilman',
+        linkedin: 'abby-hilman-696479152',
         twitter: '',
         facebook: '',
         dribbble: '',

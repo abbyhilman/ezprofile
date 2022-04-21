@@ -34,7 +34,7 @@ module.exports = {
     experiences: [
         { 
             company: 'PT. Astra Graphia Information Technology (AGIT)',
-            position: 'Developer',
+            position: 'Mobile Application Developer',
             from: 'January 2021',
             to: 'Present'
         },
